@@ -8,8 +8,8 @@
 rm(list=ls())
 library(raster)
 
-#set the location of modis_8day_snow folder.You just need to change the following line(line no 12) to run this code.
-input_dir="C:/Users/amthapa/Desktop/modis_8day_snow/"
+#set the location of improve_modis_8_day_snow folder.You just need to change the following line(line no 12) to run this code.
+input_dir=".../modis_8day_snow/"
 
 input_dir_aqua=paste0(input_dir,"MYD10A2")
 input_dir_terra=paste0(input_dir,"MOD10A2")
