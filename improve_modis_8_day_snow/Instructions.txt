@@ -1,0 +1,28 @@
+	prerequisite: R and RStudio
+	1> copy folder modis_8day_snow in desired location
+
+	2> install packages (raster,varhandle,fs,stringr in RStudio) either mannually or using following command)
+	
+		install.packages(c("raster","varhandle","fs","stringr")
+
+	3> After installation, run following code. It should not give any error.
+
+		library(raster)
+		library(varhandle)
+		library(fs)
+		library(stringr)
+
+	4> Change line number 20 in 1.modis_8_day_snow_temporal_n_spatial_filter (location of "modis_8day_snow/MYD10A2") and run it . 
+	
+	5> Replace MOD10A2 by MYD10A2 and run the code one more time.
+	
+	6> Change line no 12 in 2.modis_8_day_snow_combine (location of "modis_8day_snow") and run it.
+	
+	7> Output are stored inside "combined_product_after_5t_3s"
+
+	8> Visualize can be visualized in any GIS software (Eg: R, ARC GIS, QGIS).
+
+
+
+
+
