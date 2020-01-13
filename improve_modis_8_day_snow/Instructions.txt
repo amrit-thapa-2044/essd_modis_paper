@@ -21,6 +21,10 @@
 	7> Output are stored inside "combined_product_after_5t_3s"
 
 	8> Visualize can be visualized in any GIS software (Eg: R, ARC GIS, QGIS).
+	9> The final product will have three class
+	200-snow
+	25-no snow
+	50-cloud (if any)
 
 
 
