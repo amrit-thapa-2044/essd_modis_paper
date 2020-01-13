@@ -17,7 +17,7 @@ library(fs)
 # for_aqua_replace MOD10A2 by MYD10A2 and vice-versa
 
 # folder where one has input data (only .tif). You just need to change the following line(line no 20) to run this code.
-input_dir=".../modis_8day_snow/MOD10A2"
+input_dir=".../MOD10A2"
 
 setwd(input_dir)
 
